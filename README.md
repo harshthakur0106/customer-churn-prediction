@@ -47,3 +47,34 @@ The dataset used in this project is:
 Install the following dependencies:
 ```bash
 pip install numpy pandas matplotlib seaborn scikit-learn imbalanced-learn xgboost
+
+▶️ How to Run the Project
+1. Clone the Repository
+git clone <your-repository-url>
+cd <your-repository-folder>
+
+2. Prepare the Dataset
+
+Download the dataset: WA_Fn-UseC_-Telco-Customer-Churn.csv
+
+Place it in the root directory or update the file path in the notebook.
+
+3. Open the Jupyter Notebook
+jupyter notebook Copy_of_Customer_Churn_Prediction_using_ML.ipynb
+
+4. Run All Cells
+
+The notebook will:
+
+Load and preprocess the data
+
+Handle missing values and class imbalance
+
+Perform EDA (Exploratory Data Analysis)
+
+Train ML models (Decision Tree, Random Forest, XGBoost)
+
+Evaluate the models using Accuracy, Confusion Matrix, and Classification Report
+
+Save the best model using Pickle
+
